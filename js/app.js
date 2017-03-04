@@ -3,7 +3,7 @@
 
 $(".form-text").hide();
 
-$(".sign-in").onclick(function () {
+$(".sign-in").on("click", function () {
    alert("By signing in, you accept the terms and conditions");
     $(".form-text").show();
 });
