@@ -12,6 +12,7 @@ footer {
 body {
     background: url('../img/background-front.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
+    /*background: rgba(0, 0, 0, 0.5);*/
 }
 
 .welcome {
@@ -24,5 +25,11 @@ body {
 }
 #_title {
     font-size: 80px;
+    
+}
+
+#center-stuff {
+    display: block;
+    text-align: center;
     
 }
