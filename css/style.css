@@ -66,17 +66,40 @@ body {
     text-align: center;
     position: relative;
     top: 300px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
     font-style: 'Bree Serif', serif;
-    font-color: white;
+    color: blue;
     font-style: bold;
 }
 
+textarea {
+  display : block;
+
+  padding : 10px;
+  margin  : 10px 0 0 -10px;
+  width   : 340px;
+  height  : 360px;
+
+  resize  : none;
+  overflow: auto;
+}
 
 input[type=text] {
-    width: 10%;
+    width: 70%;
     padding: 5px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-radius: 0;
+}
+
+input[type=email] {
+    width: 70%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 0;
 }
 
 
