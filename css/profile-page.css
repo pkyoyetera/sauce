@@ -1,0 +1,11 @@
+/*Profile page styling*/
+
+
+.container {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    -webkit-transform: rotate(90deg);
+}

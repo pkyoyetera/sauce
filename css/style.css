@@ -33,3 +33,13 @@ body {
     text-align: center;
     
 }
+
+
+.form-text {
+    position: relative;
+    
+    bottom: 0px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
