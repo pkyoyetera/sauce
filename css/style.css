@@ -1,18 +1,18 @@
-footer {
-    /*background-color: orange;*/
+/*footer {
+    /*background-color: orange;*//*
     position: absolute;
     text-align: center;
     left: 0;
     bottom: 0;
    /* height: 100px;
-    width: 100%;*/
+    width: 100%;*//*
     overflow:hidden;
 }
 
 body {
     background: url('../img/background-front.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
-    /*background: rgba(0, 0, 0, 0.5);*/
+    /*background: rgba(0, 0, 0, 0.5);*//*
 }
 
 .welcome {
@@ -42,4 +42,108 @@ body {
     text-align: center;
     display: inline-block;
     width: 200px;
+}
+*/
+
+
+footer {
+    /*background-color: orange;*/
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+   /* height: 100px;
+    width: 100%;*/
+    overflow:hidden;
+}
+
+body {
+    background: url('../img/fitness_tracker_guide_cover_2.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+
+.welcome {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-family: 'Bree Serif', serif;
+    color: rgba(65, 100, 200, 0.6);
+    text-transform: uppercase;
+}
+#_title {
+    font-size: 300px;
+    
+}
+
+#center-stuff {
+    display: block;
+    text-align: center;
+}
+
+#buttons {
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgba(65, 100, 200, 0.9);
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black; 
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+
+
+#form {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    font-style: 'Bree Serif', serif;
+    color: blue;
+    font-style: bold;
+}
+
+textarea {
+  display : block;
+
+  padding : 10px;
+  margin  : 10px 0 0 -10px;
+  width   : 340px;
+  height  : 360px;
+
+  resize  : none;
+  overflow: auto;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+input[type=email] {
+    width: 70%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 0;
 }

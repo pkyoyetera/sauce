@@ -20,7 +20,9 @@ img {
 /*body of the profile page*/
 body {
     text-align: center;
-    background-color: aqua;
+    background-image: url(../img/profile-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*the profile header: Personal Profile*/
@@ -30,5 +32,20 @@ body {
     margin: 10px;
     font-family: 'Bree Serif', serif;
     color: darkblue;
+    
 }
 
+/*Calendar with all the activities you do/want to do*/
+.scheudle {
+    display: inline;
+    
+}
+
+/*days of the week n th ecalendar*/
+.days {
+    display: inline;
+    width: 50%;
+    height: 120px;
+    
+    padding-left: 20px;
+}
