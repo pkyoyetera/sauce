@@ -1,3 +1,5 @@
+html
+
 footer {
     /*background-color: orange;*/
     position: absolute;
@@ -25,4 +27,18 @@ body {
 #_title {
     font-size: 80px;
     
+}
+.sign_in_up {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-family: 'Bree Serif', serif;
+    color: darkblue;
+    text-transform: uppercase;   
+}
+#sign_up {
+    font-size: 60px
+}
+#sign_in {
+    font-size: 60px
 }
