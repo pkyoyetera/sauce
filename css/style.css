@@ -1,0 +1,28 @@
+footer {
+    /*background-color: orange;*/
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+   /* height: 100px;
+    width: 100%;*/
+    overflow:hidden;
+}
+
+body {
+    background: url('../img/background-front.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+}
+
+.welcome {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-family: 'Bree Serif', serif;
+    color: darkblue;
+    text-transform: uppercase;
+}
+#_title {
+    font-size: 80px;
+    
+}
